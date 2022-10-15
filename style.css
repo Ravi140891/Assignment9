@@ -112,6 +112,7 @@ li a{
     text-align: center;
     padding-top: 60px;
     color: whitesmoke;
+    margin: 0 auto;
 }
 .sec2 h2{
     font-size: 33px;
@@ -200,6 +201,7 @@ li a{
     color: crimson;
     text-align: center;
     padding: 80px;
+    margin 0 auto;
 }
 .sec3 h2{
     font-size: 30px;
