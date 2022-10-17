@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62%;
+}
 .container {
     width: 100%;
-    height: 400px;
+    height: 40rem;
     background-color: crimson;
     margin-top: 0;
 }
 nav{
     width: 100%;
-    height: 40px;
+    height: 4rem;
     background-color: crimson;
     /* padding: 10px; */
     /* margin: 10px 100px; */
@@ -22,20 +25,20 @@ nav{
 }
 .logo{
     color: whitesmoke;
-    font-size: 28px;
+    font-size: 2.8rem;
     width: 22%;
-    margin-left: 220px;
-    padding: 8.5px;
+    margin-left: 22rem;
+    padding: .85rem;
     display: inline-block;
 }
 .menu ul li{
     display: inline-block;
-    padding: 8px 15px;
+    padding: .8rem 1.5rem;
 }
 .menu{
     text-decoration: none;
     float: right;
-    margin-right: 220px;
+    margin-right: 22rem;
     /* padding:8px 15px */
 }
 li a{
@@ -43,34 +46,35 @@ li a{
     text-decoration: none;
 }
 .heading{
-    margin-top: 40px;
+    margin-top: 4rem;
     text-align: center;
     color: whitesmoke;
-    font-size: 30px;
+    font-size: 3rem;
     align-items: center;
 }
 .head1 h1{
-    padding: 150px 220px 0 220px
+    padding: 15rem 22rem 0 22rem;
     /* align-items: center; */
 }
 .heading p{
-    font-size: 20px;
+    font-size: 2rem;
 }
 .mid_sec{
-    width: 1000px;
-    height: 200px;
-    margin: 80px 220px;
+    width: 100rem;
+    height: 20rem;
+    margin: 8rem 22rem;
 }
 .elem1{
-    width: 320px;
-    height: 200px;
+    width: 32rem;
+    height: 20rem;
     border: none;
     background-color: whitesmoke;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 .elem1 h3{
     color: crimson;
     background-color: whitesmoke;
+    font-size: 2rem;
 }
 .elem3{
     float: right;
@@ -80,162 +84,162 @@ li a{
 }
 .elem2{
     float: left;
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .elem1 p{
-    font-size: 14px;
-    padding: 20px 0;
+    font-size: 1.4rem;
+    padding: 2rem 0;
 }
 .elem1 button{
     background-color: crimson;
     color: whitesmoke;
-    font-size: 13px;
-    padding: 8px 15px;
+    font-size: 1.3rem;
+    padding: .8rem 1.5rem;
     border: none;
 }
 .fa-solid{
-    font-size: 20px;
-    padding: 15px;
+    font-size: 2rem;
+    padding: 1.5rem;
     background-color: lightgray;
     border: 2px solid red;
     border-radius: 50%;
-    margin: 0 120px;
+    margin: 0 12rem;
     float: right;
-    margin-top: 60px;
+    margin-top: 6rem;
     position: fixed;
-    right: 80px;
+    right: 8rem;
 }
 .sec2{
     width: 100%;
-    height: 470px;
+    height: 47rem;
     background-color: crimson;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 6rem;
     color: whitesmoke;
 }
 .sec2 h2{
-    font-size: 33px;
+    font-size: 3.3rem;
 }
 .sec p{
-    font-size: 10px;
+    font-size: 1rem;
 }
 .picsec{
-    width: 1000px;
-    height: 226px;
-    margin: 0 220px;
-    margin-top: 50px;
+    width: 100rem;
+    height: 22.6rem;
+    margin: 0 22rem;
+    margin-top: 5rem;
 }
 .photo_frames{
-    width: 200px;
-    height: 250px;
-    border: 1px solid whitesmoke;
+    width: 20rem;
+    height: 25rem;
+    border: .1rem solid whitesmoke;
     color: black;
-    margin: 0 20px;
+    margin: 0 2rem;
     display: inline-block;
     box-sizing: border-box;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .pic{
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     align-items: center;
-    margin-left: 22px;
-    margin-top: 20px;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
 }
 .pic img{
-    width: 150px;
-    height: 150px;
+    width: 15rem;
+    height: 15rem;
     border-radius: 55%;
     /* margin-top: 20px; */
-    padding: 10px;
+    padding: 1rem;
 }
 .name{
     width: max-content;
-    height: 30px;
+    height: 3rem;
     position: absolute;
     color: whitesmoke;
-    bottom: 50px;
-    left: 55px;
+    bottom: 5rem;
+    left: 5.5rem;
 }
 .logosec{
-    width: 100px;
-    height: 100px;
-    margin: 0 220px;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 22rem;
     /* display: inline-block; */
     position: relative;
 }
 .logo1{
-    width: 160px;
-    height: 40px;
+    width: 16rem;
+    height: 4rem;
     background-color: whitesmoke;
-    margin: 30px;
+    margin: 3rem;
     /* display: inline-block; */
     z-index: 1;
-    margin-top: 5px;
+    margin-top: .5rem;
     display: inline-block;
     position: absolute;
     /* right: 60px; */
 
 }
 .logo1 img{
-    width: 150px;
-    height: 36px;
+    width: 15rem;
+    height: 3.6rem;
     /* padding: 5px; */
 }
 .pic1{
-    left: 291px;
+    left: 29.1rem;
 }
 .pic2{
-    right: -899px;
+    right: -89.9rem;
 }
 .pic3{
-    right: -654px;
+    right: -65.4rem;
 }
 .pic4{
-    left: 47px;
+    left: 4.7rem;
 }
 .sec3{
     color: crimson;
     text-align: center;
-    padding: 80px;
+    padding: 8rem;
 }
 .sec3 h2{
-    font-size: 30px;
+    font-size: 3rem;
 }
 .sec3 p{
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 .sec4{
-    width: 1000px;
-    height: 400px;
-    margin: 25px 240px;
+    width: 100rem;
+    height: 40rem;
+    margin: 2.5rem 24rem;
 }
 .part1{
-    width: 450px;
-    height: 250px;
+    width: 45rem;
+    height: 25rem;
     float: left;
 }
 .sec4 h3{
     color: crimson;
 }
 .part1 img{
-    width: 450px;
-    height: 220px;
+    width: 45rem;
+    height: 22rem;
 }
 .part2{
-    width: 450px;
-    height: 250px;
+    width: 45rem;
+    height: 25rem;
     float: right;
 }
 .part2 img{
-    width: 450px;
-    height: 220px;
+    width: 45rem;
+    height: 22rem;
 }
 .sec4 button {
-    font-size: 15px;
-    padding: 5px 8px;
+    font-size: 1.5rem;
+    padding: .5rem .8rem;
     background-color: crimson;
     color: whitesmoke;
     border: none;
