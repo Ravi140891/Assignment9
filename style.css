@@ -62,7 +62,7 @@ li a{
 .mid_sec{
     width: 100rem;
     height: 20rem;
-    margin: 8rem 22rem;
+    margin: 8rem auto;
 }
 .elem1{
     width: 32rem;
